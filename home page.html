@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="stylecsi.css">
+    <script src="https://kit.fontawesome.com/f4f4326081.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="top" id="top">
+            <nav>
+                <img src="./logox.jpeg" class="logo">
+                <ul id="sidemenu">
+                  <li> <a href="#top">Home</a></li>
+                  <li> <a href="#about">About Us</a></li>
+                  <li> <a href="#contact">Contact Us</a></li>
+                  <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           
+            </nav>
+            <div class="header-text" id="top">
+                <p><span>CSI-DJSCE</span> </p>
+                <h1>Student Chapter of<span> Computer Society of India</span>. </h1>
+
+            </div>
+        </div>
+    </div>
+    <!------about me----->
+    <div id="about">
+        <div class="middle">
+            <div class="row">
+                <div class="about-col-1">
+                   
+                    <div class="layer">
+                        <img src="./back2.jpg">
+                        <br>
+                        <br>
+                        <div class="black">
+                        <h3><i class="fa-solid fa-cat"></i>hello!!</h3>
+                        <p>Reach us at</p></div>
+                        <div class="social-icon" id="red">
+                            <a href="https://www.instagram.com/djcsi/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/dj-csi"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://youtu.be/dQw4w9WgXcQ"><i class="fa-brands fa-reddit"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="subtitle" id="about">About Us</h1>
+                    <p>With the help of technology, DJCSI aims to ignite a flame of curiosity in the minds of students and create a yearning for learning among them. We intend to choreograph and fabricate a platform for optimizing the technical aptitude in a fun and entertaining way in our endeavor to bridge the gap between university and industry.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">More details</p>
+                        
+
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>WEBSITE</span><br><a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Edjcsi%2Eco%2Ein&urlhash=Hq_-&trk=about_website">click here</a> </li>
+                            <li><span>INDUSTRIES</span><br>
+                                IT Services and IT Consulting</li>
+                            <li><span>COMPANY SIZE</span><br>11-50 employees</li>
+                            <li><span>HEADQUATERS</span><br>
+                                Mumbai, Maharashtra</li>
+                            <li><span>TYPE</span><br>
+                                Nonprofit</li>
+                            <li><span>FOUNDED</span><br>2010</li>
+                            
+
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+      <!-- ---MADE USING BLAH BLAH -->  
+<div id="services">
+    <div class="top">
+        <h1 class="subtile">Made using</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-css3"></i>
+                <h2>CSS</h2>
+                <p> USED TO ENHACE AND PUT COLORS INTO A BISIC HTML FORM. </p>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+                <p> USED TO CREATE THE BASIC WEBSITE STRUCTURE.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>JAVASCRIPT</h2>
+                <p> USED TO MAKE A WEBSITE MADE USING HTML AND CSS SMART AND MODERN.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="rows">
+            <div class="subtitle">
+            <h1 class="subtitle" id="contact">Contact Us</h1>
+            <div class="social-icons">
+                    <a href="https://www.instagram.com/djcsi/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/dj-csi"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ"><i class="fa-brands fa-reddit"></i></a>
+               
+                    
+            
+           </div>
+           <p id="small"><i class="fa-solid fa-envelope"></i>      xxxxxxxxxxxxxxx@gmail.com</p>
+           <p id="small"><i class="fa-solid fa-phone"></i>   xxxxxxxxxx</p>
+        </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<h4 class="go"><a href="#top">TOP<i class="fa-solid fa-up-long"></i></a>
+
+</h4>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
